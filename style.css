@@ -20,7 +20,7 @@
 
 .main-text {
     font-size: 42px;
-    color: aqua;
+    color: yellow;
     text-indent: 25px;
 }
 
@@ -50,11 +50,11 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     transform: rotate3d(1, 1, 1, 0deg);
-    transition: transform 1s linear 250ms;
+    transition: transform 1s linear 370ms;
 }
 
 .box-style:hover {
-    transform: rotate3d(1, 1, 1, 45deg);
+    transform: rotate3d(1, 1, 60, 360deg);
 }
 
 .dogs-card {
@@ -92,7 +92,7 @@ body {
 .pages-link {
     font-family: 'Kaushan Script';
     text-decoration: none;
-    text-shadow: 3px 1px 3px skyblue;
+    text-shadow: 3px 1px 3px yellow;
     font-size: 36px;
 }
 
@@ -121,11 +121,11 @@ body {
 }
 
 button {
-    background-color: rgba(59, 25, 183, 0.763);
+    background-color: yellow;
     color: red;
     border: none;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
 }
 
